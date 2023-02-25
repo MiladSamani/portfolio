@@ -2,11 +2,8 @@ import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
   height: 3.5rem;
-  width: 100vw;
   background-color: #1b1b1f;
   opacity: 0.99;
-  position: absolute;
-  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;

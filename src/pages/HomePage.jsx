@@ -1,8 +1,14 @@
 import React from "react";
-import FooterComponent from "../components/Footer/FooterComponent";
+import AboutComponent from "../Components/About/AboutComponent";
+import FooterComponent from "../Components/Footer/FooterComponent";
 
 function HomePage() {
-  return <FooterComponent />;
+  return (
+    <>
+      <AboutComponent />
+      <FooterComponent />
+    </>
+  );
 }
 
 export default HomePage;

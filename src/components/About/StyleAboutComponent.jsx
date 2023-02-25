@@ -5,6 +5,7 @@ export const Container = styled.section`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin: 90px 0;
 `;
 export const AboutHeader = styled.img``;
 export const AboutDetail = styled.p`
@@ -12,6 +13,7 @@ export const AboutDetail = styled.p`
   color: #c5c8d4d4;
   width: 60vw;
   margin: 3rem 0.9rem;
+  margin-bottom: 0;
   line-height: 1.5rem;
   @media screen and (max-width: 1200px) {
     width: 90vw;

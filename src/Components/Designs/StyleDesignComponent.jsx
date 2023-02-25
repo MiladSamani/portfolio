@@ -6,7 +6,7 @@ export const Container = styled.section`
   justify-content: space-around;
   gap: 45px;
   align-items: center;
-  margin: 35px 0;
+  margin: 90px 0;
 `;
 export const Header = styled.img``;
 export const Items = styled.div`
@@ -46,4 +46,7 @@ export const DesignButton = styled.button`
   font-weight: 600;
   color: rgb(156 163 175);
   cursor: pointer;
+  :hover {
+    color: #fff;
+  }
 `;

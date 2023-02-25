@@ -7,9 +7,10 @@ export const NavigationUl = styled.ul`
   color: white;
   gap: 30px;
   
-  li {
+  li , a {
     list-style-type: none;
     color: #575c68;
     font-size: 16px;
+    text-decoration: none  ;
   }
 `;

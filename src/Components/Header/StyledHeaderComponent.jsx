@@ -26,17 +26,17 @@ export const Logo = styled.img`
   @keyframes pulse {
     0% {
       transform: scale(0.95);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+      box-shadow: rgb(19, 20, 23);
     }
 
     70% {
-      transform: scale(1);
-      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+      transform: scale(1.1);
+      box-shadow: rgb(19, 20, 23);
     }
 
     100% {
       transform: scale(0.95);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+      box-shadow: rgb(19, 20, 23);
     }
   }
 `;
@@ -52,4 +52,8 @@ export const CvBtn = styled.button`
   font-size: 14px;
   transition-duration: 0.4s;
   cursor: pointer;
+  &:hover{
+    background-color: #a855f7;
+    color: white;
+  }
 `;

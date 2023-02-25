@@ -5,11 +5,21 @@ function Navigation() {
   return (
     <>
       <NavigationUl>
-      <li>Main</li>
-        <li>About</li>
-        <li>Designs</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <a href="!#">Home</a>
+        </li>
+        <li>
+          <a href="!#">About</a>
+        </li>
+        <li>
+          <a href="!#">Designs</a>
+        </li>
+        <li>
+          <a href="!#">Projects</a>
+        </li>
+        <li>
+          <a href="!#">Contact</a>
+        </li>
       </NavigationUl>
     </>
   );

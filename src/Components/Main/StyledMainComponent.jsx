@@ -32,6 +32,7 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialMedia = styled.img`
+cursor: pointer;
   padding: 5px 30px;
   border: 1px solid white;
   background-color: rgb(197 200 212/0.15);

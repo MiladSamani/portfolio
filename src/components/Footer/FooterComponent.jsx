@@ -1,14 +1,19 @@
 import React from "react";
-import { LeftText, RightText, StyledFooter } from "./StyleFooterComponent";
+import {
+  LeftText,
+  //RightText,
+  StyledFooter,
+} from "./StyleFooterComponent";
 
 function FooterComponent() {
   return (
     <StyledFooter>
-      <LeftText>Design & Develop , Sina & Milad</LeftText>
-      <RightText>
+      <LeftText>Copyright 2023 © Milad Samani & Sina Khorsandi </LeftText>
+      {/* Email Address */}
+      {/* <RightText>
         <span>Mail: </span>
         sinakhorsandi.dev@gmail.com
-      </RightText>
+      </RightText> */}
     </StyledFooter>
   );
 }

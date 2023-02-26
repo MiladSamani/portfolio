@@ -25,7 +25,7 @@ export const Items = styled.div`
 export const Item = styled.img`
   width: 90%;
   height: 100%;
-  border-left: 4px solid #ff4c00;
+  border-left: 4px solid #6332be;
   border-radius: 0.375rem;
   transition: all 500ms;
   cursor: pointer;

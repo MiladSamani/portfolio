@@ -9,7 +9,7 @@ export const ProgrammerImage = styled.img`
   height: 7rem;
   width: 7rem;
   border-radius: 100%;
-  border: 2px solid #80cfec;
+  border: 2px solid #a855f7;
 `;
 export const About = styled.div`
   text-align: center;

@@ -1,24 +1,23 @@
-import React from "react";
-import Navigation from "../Navigation/NavigationComponent";
-import { CvBtn, HeaderStyle, Logo } from "./StyledHeaderComponent";
-import LogoSrc from "../../Assets/images/logo.svg";
+import React, { useState } from "react";
+import NavigationComponent from "../Navigation/NavigationComponent";
+import { CvBtn, Header, HeaderItems, Logo } from "./StyledHeaderComponent";
 
-function Header() {
+import logo from "../../Assets/images/logo.svg";
+import HamburgerComponent from "../Hamburger/HamburgerComponent";
+
+function HeaderComponent() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <>
-      <HeaderStyle>
-        <div className="one">
-          <Logo src={LogoSrc} />
-        </div>
-        <div className="two">
-          <Navigation />
-        </div>
-        <div className="three">
-          <CvBtn>Download Cv</CvBtn>
-        </div>
-      </HeaderStyle>
-    </>
+    <Header>
+      <HeaderItems>
+        <Logo src={logo} />
+        <NavigationComponent open={open} setOpen={setOpen} />
+        <HamburgerComponent open={open} setOpen={setOpen} />
+        <CvBtn>Download CV</CvBtn>
+      </HeaderItems>
+    </Header>
   );
 }
 
-export default Header;
+export default HeaderComponent;

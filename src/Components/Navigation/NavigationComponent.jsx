@@ -1,28 +1,26 @@
 import React from "react";
-import { NavigationUl } from "./StyledNavigationComponent";
+import { Nav } from "./StyledNavigationComponent";
 
-function Navigation() {
+function NavigationComponent({ open, setOpen }) {
   return (
-    <>
-      <NavigationUl>
-        <li>
-          <a href="!#">Home</a>
-        </li>
-        <li>
-          <a href="!#">About</a>
-        </li>
-        <li>
-          <a href="!#">Designs</a>
-        </li>
-        <li>
-          <a href="!#">Projects</a>
-        </li>
-        <li>
-          <a href="!#">Contact</a>
-        </li>
-      </NavigationUl>
-    </>
+    <Nav open={open}>
+      <li>
+        <a href="#">Main</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Designs</a>
+      </li>
+      <li>
+        <a href="#">Projects</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </Nav>
   );
 }
 
-export default Navigation;
+export default NavigationComponent;

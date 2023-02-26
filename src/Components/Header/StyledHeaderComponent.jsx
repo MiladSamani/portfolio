@@ -1,59 +1,40 @@
 import styled from "styled-components";
 
-export const HeaderStyle = styled.header`
+export const Header = styled.header`
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid rgb(42 41 41);
+  margin-bottom: 1.5rem;
+  background-color: #131417;
+`;
+export const HeaderItems = styled.section`
+  width: 92vw;
+  margin: auto;
   display: flex;
   justify-content: space-between;
-  div {
-    width: calc(100% / 3);
-  }
-  .one {
-    text-align: center;
-  }
-  .two {
-    text-align: center;
-  }
-  .three {
-    text-align: center;
-  }
-  border-bottom: 2px solid #202126fc;
-  position: sticky;
-  margin: 20px 0px;
-  padding-bottom: 10px;
+  padding: 8px;
 `;
-
 export const Logo = styled.img`
-  animation: pulse 2s infinite;
+  width: 32px;
+  animation: pulse 1.7s infinite;
   @keyframes pulse {
-    0% {
-      transform: scale(0.95);
-      box-shadow: rgb(19, 20, 23);
-    }
-
-    70% {
-      transform: scale(1.1);
-      box-shadow: rgb(19, 20, 23);
-    }
-
-    100% {
-      transform: scale(0.95);
-      box-shadow: rgb(19, 20, 23);
+    50% {
+      opacity: 0.6;
     }
   }
 `;
-
 export const CvBtn = styled.button`
-  background-color: #221b2e;
-  border: #a855f7 solid 2px;
-  border-radius: 5px;
-  padding: 10px 20px;
-  color: #aaaeb5;
-  text-align: center;
-  text-decoration: none;
-  font-size: 14px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  &:hover{
-    background-color: #a855f7;
-    color: white;
+  height: 2.5rem;
+  border: 1px solid rgb(168 85 247);
+  border-radius: 0.25rem;
+  background-color: rgb(168 85 247/0.1);
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  color: rgb(156 163 175);
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `;

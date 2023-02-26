@@ -25,8 +25,12 @@ export const About = styled.div`
 `;
 export const MainImage = styled.img`
   width: 73vw;
+  @media screen and (max-width: 576px) {
+    width: 100vw;
+    margin-bottom: 20px;
   @media screen and (max-width: 992px) {
     width: 100vw;
+
   }
 `;
 export const SocialIcons = styled.div`

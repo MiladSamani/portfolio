@@ -16,6 +16,16 @@ export const CardContainer = styled.div`
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
   row-gap: 20px;
+
+  @media screen and (max-width: 768px) {
+    width: 75%;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+  }
+  @media (min-width: 769px) and (max-width: 992px) {
+    width: 85%;
+    column-gap: 20px;
+  }
 `;
 export const Card = styled.div`
   display: flex;
@@ -50,6 +60,7 @@ export const CardTitle = styled.h3`
 export const CardDescription = styled.p`
   color: #d0cdcd80;
   font-size: 14px;
+  padding: 0.5rem;
 `;
 export const CardTechnologies = styled.p`
   margin: 1rem;

@@ -9,7 +9,7 @@ import {
   CardTechnologies,
   CardTitle,
   Container,
-  DesignButton,
+  //DesignButton,
   Header,
   CardButton,
   LeftButton,
@@ -22,8 +22,7 @@ import projectsImage from "../../Assets/images/projects.svg";
 import githubImage from "../../Assets/images/github.svg";
 import watchImage from "../../Assets/images/watchImage.svg";
 
-import firstProject from "../../Assets/images/firstProject.png";
-import secondProject from "../../Assets/images/secondProject.png";
+import secondProject from "../../Assets/images/cm.gif";
 
 function ProjectsComponent() {
   return (
@@ -33,10 +32,10 @@ function ProjectsComponent() {
         <Card>
           <CardImage src={secondProject} />
           <CardDetails>
-            <CardTitle>Academy-Project</CardTitle>
+            <CardTitle>Project Name</CardTitle>
             <CardLine />
             <CardDescription>
-              Sepehr Academy admin panel with CoreUi
+              Project Details and etc
             </CardDescription>
           </CardDetails>
           <CardTechnologies>
@@ -57,10 +56,10 @@ function ProjectsComponent() {
         <Card>
           <CardImage src={secondProject} />
           <CardDetails>
-            <CardTitle>Academy-Project</CardTitle>
+            <CardTitle>Project Name</CardTitle>
             <CardLine />
             <CardDescription>
-              Sepehr Academy admin panel with CoreUi
+            Project Details and etc
             </CardDescription>
           </CardDetails>
           <CardTechnologies>
@@ -78,7 +77,8 @@ function ProjectsComponent() {
           </CardButton>
         </Card>
       </CardContainer>
-      <DesignButton>More</DesignButton>
+      {/* for future and more projects and designs */}
+      {/* <DesignButton>More</DesignButton> */}
     </Container>
   );
 }

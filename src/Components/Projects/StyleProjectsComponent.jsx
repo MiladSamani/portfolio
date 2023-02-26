@@ -95,15 +95,15 @@ export const LeftButton = styled.button`
   outline: none;
   padding: 0.2rem 1.6rem;
   background-color: rgb(197 200 212/0.15);
-  border: 1px solid rgb(197 200 212);
+  border: 1px solid white;
   border-radius: 5px;
   cursor: pointer;
 `;
 export const RightButton = styled.button`
   outline: none;
   padding: 0.2rem 1.6rem;
-  background-color: rgb(147 51 234/0.15);
-  border: 1px solid #9333ea;
+  background-color: rgb(197 200 212/0.15);
+  border: 1px solid white;
   border-radius: 5px;
   cursor: pointer;
 `;

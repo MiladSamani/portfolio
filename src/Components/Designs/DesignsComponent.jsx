@@ -1,13 +1,13 @@
 import React from "react";
 
 import designsImage from "../../Assets/images/designs.svg";
-import firstItemImage from "../../Assets/images/firstItemImage.png";
-import secondItemImage from "../../Assets/images/secondItemImage.png";
-import thirdItemImage from "../../Assets/images/thirdItemImage.png";
-import forthItemImage from "../../Assets/images/forthItemImage.png";
+import firstItemImage from "../../Assets/images/cm.gif";
+import secondItemImage from "../../Assets/images/cm.gif";
+import thirdItemImage from "../../Assets/images/cm.gif";
+import forthItemImage from "../../Assets/images/cm.gif";
 import {
   Container,
-  DesignButton,
+  //DesignButton,
   Header,
   Item,
   Items,
@@ -28,7 +28,8 @@ function DesignsComponent() {
           <Item src={image} alt={image} key={index} />
         ))}
       </Items>
-      <DesignButton>More</DesignButton>
+      {/* for future and more projects and designs */}
+      {/* <DesignButton>More</DesignButton> */}
     </Container>
   );
 }

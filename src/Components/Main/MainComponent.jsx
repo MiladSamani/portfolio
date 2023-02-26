@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../../Assets/images/images.svg";
-import Programmer from "../../Assets/images/Programmer.jpg";
+import Programmer from "../../Assets/images/MiladSamani.JPG";
 import GithubIcon from "../../Assets/images/github.svg";
 import Linkedin from "../../Assets/images/linkedin.svg";
 import {

@@ -1,16 +1,25 @@
 import styled from "styled-components";
 
-export const NavigationUl = styled.ul`
+export const Nav = styled.ul`
+  width: 37vw;
+  list-style-type: none;
   display: flex;
-  justify-content : center;
-  align-items: center;
-  color: white;
-  gap: 30px;
-  
-  li , a {
-    list-style-type: none;
-    color: #575c68;
-    font-size: 16px;
-    text-decoration: none  ;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-top: 0.5rem;
+
+  li {
+    a {
+      cursor: pointer;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-weight: 500;
+      color: rgb(107 114 128);
+      text-decoration: none;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `;

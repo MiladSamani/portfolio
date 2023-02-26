@@ -25,6 +25,10 @@ export const About = styled.div`
 `;
 export const MainImage = styled.img`
   width: 73vw;
+  @media screen and (max-width: 576px) {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
 `;
 export const SocialIcons = styled.div`
   display: flex;
@@ -32,7 +36,7 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialMedia = styled.img`
-cursor: pointer;
+  cursor: pointer;
   padding: 5px 30px;
   border: 1px solid #6332be;
   background-color: rgb(197 200 212/0.15);
